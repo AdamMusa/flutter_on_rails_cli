@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "flutter_on_rails"
-  spec.version       = "0.0.1.alpha"
+  spec.version       = "0.0.2.alpha"
   spec.authors       = "Adam Musa Ali"
   spec.email         = ["adammusaaly@gmail.com"]
 

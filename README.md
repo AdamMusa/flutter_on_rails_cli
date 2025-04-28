@@ -6,6 +6,7 @@ A Ruby CLI tool for managing Flutter applications with ease.
 
 1. Make sure you have Ruby installed
 2. Install dependencies:
+
 ```bash
 bundle install
 ```
@@ -13,19 +14,25 @@ bundle install
 ## Usage
 
 ### Create a new Flutter app
+
 ```bash
-./bin/flutter_on_rails create
+flutter_on_rails create or frails create
 ```
+
 This will:
+
 - Create a new Flutter application
 - Optionally add dependencies
 - Optionally configure splash screen
 
 ### Build Flutter app
+
 ```bash
-./bin/flutter_on_rails build
+flutter_on_rails build or frails build
 ```
+
 This will:
+
 - Let you choose the platform (android/ios/web/windows/macos/linux)
 - Let you choose build type (debug/release)
 - Build the application for the selected platform

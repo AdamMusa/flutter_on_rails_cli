@@ -1,41 +1,73 @@
 # Flutter on Rails CLI
 
-A Ruby CLI tool for managing Flutter applications with ease.
+Flutter on Rails CLI is a powerful tool that helps you create and manage Flutter applications with Rails backend integration.
+
+## Prerequisites
+
+Before using Flutter on Rails CLI, make sure you have:
+
+1. **Flutter SDK** installed:
+
+   - [Install Flutter](https://docs.flutter.dev/get-started/install) for your operating system
+   - After installation, verify it's working by running:
+     ```bash
+     flutter doctor
+     ```
+   - Make sure to follow any additional setup instructions provided by `flutter doctor`
+
+2. **Ruby** installed on your system
 
 ## Installation
 
-1. Make sure you have Ruby installed
-2. Install dependencies:
-
 ```bash
-bundle install
+gem install flutter_on_rails
 ```
 
 ## Usage
 
-### Create a new Flutter app
+Create a new Flutter on Rails application:
 
 ```bash
-flutter_on_rails create or frails create
+frails create my_app
+# or
+flutter_on_rails create my_app
 ```
 
-This will:
-
-- Create a new Flutter application
-- Optionally add dependencies
-- Optionally configure splash screen
-
-### Build Flutter app
+Run the application:
 
 ```bash
-flutter_on_rails build or frails build
+frails run
+# or
+flutter_on_rails run
 ```
 
-This will:
+Build the application for a specific platform:
 
-- Let you choose the platform (android/ios/web/windows/macos/linux)
-- Let you choose build type (debug/release)
-- Build the application for the selected platform
+```bash
+frails build [platform]
+# or
+flutter_on_rails build [platform]
+```
+
+Available platforms:
+
+- android
+- ios
+- windows
+- macos
+- linux
+
+## Commands
+
+- `frails create` or `flutter_on_rails create` - Create a new Flutter on Rails application
+- `frails run` or `flutter_on_rails run` - Run the Flutter app in debug mode
+- `frails build` or `flutter_on_rails build` - Build Flutter app for different platforms
+- `frails apply` or `flutter_on_rails apply` - Apply configurations (splash_screen or icon_launcher)
+- `frails install` or `flutter_on_rails install` - Install dependencies
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Features
 

@@ -10,9 +10,9 @@ Before using Flutter on Rails CLI, make sure you have:
 
    - [Install Flutter](https://docs.flutter.dev/get-started/install) for your operating system
    - After installation, verify it's working by running:
-     ```bash
-     flutter doctor
-     ```
+      ```bash
+      flutter doctor
+      ```
    - Make sure to follow any additional setup instructions provided by `flutter doctor`
 
 2. **Ruby** installed on your system
@@ -28,9 +28,9 @@ gem install flutter_on_rails
 Create a new Flutter on Rails application:
 
 ```bash
-frails create my_app
+frails create
 # or
-flutter_on_rails create my_app
+flutter_on_rails create 
 ```
 
 Run the application:

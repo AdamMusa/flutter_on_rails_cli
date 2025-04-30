@@ -1,13 +1,14 @@
 Gem::Specification.new do |spec|
   spec.name          = "flutter_on_rails"
-  spec.version       = "0.0.2.alpha"
-  spec.authors       = "Adam Musa Ali"
+  spec.version       = "0.0.3.alpha"
+  spec.authors       = "Adam Moussa Ali"
   spec.email         = ["adammusaaly@gmail.com"]
 
   spec.summary       = "Flutter on Rails CLI"
   spec.description   = "Flutter on rails is the fastest way to bridge your web app with a Flutter-powered for cross plateform mobile and desktop app with ease and minimal changes, maximum freedom"
   spec.homepage      = "https://github.com/AdamMusa/flutter_on_rails_cli"
   spec.license       = "MIT"
+  spec.metadata["documentation_uri"] = "https://github.com/AdamMusa/flutter_on_rails_cli#readme"
 
   # Specify which files should be added to the gem when it is released.
   spec.files         = Dir["{bin,lib}/**/*", "LICENSE", "README.md"]
